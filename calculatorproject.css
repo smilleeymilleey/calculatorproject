@@ -2,16 +2,17 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
+  color: black;
 }
-p {
-  color: red;
+h3 {
+  color: blue;
 }
 
 .grid-container {
   display: grid;
   background-color: #2196F3;
   padding: 10px;
+
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -19,4 +20,37 @@ p {
   padding: 10px;
   font-size: 30px;
   text-align: center;
+}
+
+table, th, td{
+  border: .5px solid black;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: lavender;
+
+}
+
+#clear {
+  width: 80px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: pink;
+}
+
+#operator {
+  width: 80px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: lavender;
+}
+
+#number {
+  width: 80px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: hotpink;
+}
+
+#screen{
+  width: 325px;
 }
