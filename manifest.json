@@ -8,6 +8,8 @@
   },
   "browser_action": {
     "default_icon": "images/icon.png",
+  },
+    "default_title": "Calculator",
     "default_popup": "calculatorproject.html"
   },
   "permissions": ["activeTab"]
