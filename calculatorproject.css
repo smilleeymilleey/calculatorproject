@@ -8,11 +8,7 @@ h3 {
   color: blue;
 }
 
-#div1 {
-  width: 10px;
-  height: 100px;
-  border: 1px solid blue;
-  box-sizing: border-box;
+
 
  }
 .grid-container {
@@ -38,31 +34,33 @@ table, th, td{
   padding-left: 0px;
   padding-right: 0px;
   background-color: lavender;
+  width: 1px;
 
 
 }
 
-#clear {
+.clear {
   width: 80px;
-  padding-right: 5px;
-  padding-left: 0px;
+  height: 40px;
   background-color: pink;
+  display: inline-block;
 }
 
-#operator {
+.operator {
   width: 80px;
-  padding-right: 8px;
-  padding-left: 0px;
+  height: 40px;
+  display: inline-block;
   background-color: lavender;
 }
 
-#number {
+.number{
   width: 80px;
-  padding-right: 0px;
-  padding-left: 0px;
+  height: 40px;
+  display: inline-block;
   background-color: hotpink;
 }
 
-#display {
-  width: 400px;
+.display {
+  width: 200px;
+
 }
