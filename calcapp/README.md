@@ -1,2 +1,2 @@
 # calculatorproject
-This is my first javascript project where I will be creating a calculator
+This is my first official project. I used html and css to create a google chrome extension.
