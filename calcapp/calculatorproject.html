@@ -17,35 +17,35 @@
 
   <div class="div1">
     <form name="calculator">
-
-      <table>
+      <div style="overflow-x:auto;">
+      <table width='100%'>
           <tr>
             <td colspan="4">
-              <input type="text" name="display" id="display" disabled>
+              <input type="text" name="display" class="display" disabled> Keep Learning
           </td>
       </tr>
       <tr>
-          <td><input type="button" id="number" name="one" value="1" onclick="calculator.display.value += '1'"></td>
-          <td><input type="button" id="number" name="two" value="2" onclick="calculator.display.value += '2'"></td>
-          <td><input type="button" id="number" name="three" value="3" onclick="calculator.display.value += '3'"></td>
-          <td><input type="button" id="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
+          <td><input type="button" class="number" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+          <td><input type="button" class="number" name="two" value="2" onclick="calculator.display.value += '2'"></td>
+          <td><input type="button" class="number" name="three" value="3" onclick="calculator.display.value += '3'"></td>
+          <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
 
 
           <tr>
-              <td><input type="button" id="number" name="four" value="4" onclick="calculator.display.value += '4'"></td>
-               <td><input type="button" id="number" name="five" value="5" onclick="calculator.display.value += '5'"></td>
-               <td><input type="button" id="number" name="six" value="6" onclick="calculator.display.value += '6'"></td>
-               <td><input type="button" id="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
+              <td><input type="button" class="number" name="four" value="4" onclick="calculator.display.value += '4'"></td>
+               <td><input type="button" class="number" name="five" value="5" onclick="calculator.display.value += '5'"></td>
+               <td><input type="button" class="number" name="six" value="6" onclick="calculator.display.value += '6'"></td>
+               <td><input type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
             </tr>
-            <td width="50%""><input type="button" id="number" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
-            <td><input type="button" name="eight" id="number" value="8" onclick="calculator.display.value += '8'"></td>
-            <td><input type="button" name="nine" id="number" value="9" onclick="calculator.display.value +='9'"></td>
-            <td><input type="button" id="operator" name="times" value="X"onclick="calculator.display.value+='*'"></td>
+            <td width="50%""><input type="button" class="number" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
+            <td><input type="button" name="eight" class="number" value="8" onclick="calculator.display.value += '8'"></td>
+            <td><input type="button" name="nine" class="number" value="9" onclick="calculator.display.value +='9'"></td>
+            <td><input type="button" class="operator" name="times" value="X"onclick="calculator.display.value+='*'"></td>
             <tr>
-            <td><input type="button" id= "clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
-            <td><input type="button" id="number" name="zero" value="0"  onclick="calculator.display.value += '0'"></td>
-            <td><input type="button" id="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
-            <td><input type="button" id="operator" name="doit" value="="  onclick="calculator.display.value = eval(calculator.display.value)"></td>
+            <td><input type="button" class= "clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+            <td><input type="button" class="number" name="zero" value="0"  onclick="calculator.display.value += '0'"></td>
+            <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
+            <td><input type="button" class="operator" name="doit" value="="  onclick="calculator.display.value = eval(calculator.display.value)"></td>
 </div>
 
 
