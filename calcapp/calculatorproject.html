@@ -5,7 +5,7 @@
       <title></title>
 
       <link rel= "stylesheet"   href="calculatorproject.css">
-
+        <script type="text/javascript" src="\calculatorproject\calcapp\jscalculatorproject.js"></script>
 
 
     <body>
@@ -13,19 +13,21 @@
         </h1>
       </div>
   <h2> Calculator App </h2>
-  <h4> made by smilleeymilleey</h4>
+  <h4 id="demo"> made by smilleeymilleey</h4>
 
-  <div class="div1">
+
     <form name="calculator">
+      <div id= firstbox>
       <div style="overflow-x:auto;">
       <table width='100%'>
           <tr>
-            <td colspan="4">
-              <input type="text" name="display" class="display" disabled> Keep Learning
+            <td id="myScreen" colspan="4">
+              <input type="text" name="display" class="display"  disabled> Keep Learning
           </td>
       </tr>
+    </div>
       <tr>
-          <td><input type="button" class="number" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+          <td id="button1"><input type="button" class="number" name="one" value="1"></td>
           <td><input type="button" class="number" name="two" value="2" onclick="calculator.display.value += '2'"></td>
           <td><input type="button" class="number" name="three" value="3" onclick="calculator.display.value += '3'"></td>
           <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
@@ -62,6 +64,6 @@
 
 
     </body>
-  <script src= "jscalculatorproject.js"></script>
+
     </head>
 </html>
