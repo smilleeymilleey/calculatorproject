@@ -1,5 +1,7 @@
 body {
   background-color: powderblue;
+  background-image: linear-gradient(to right, powderblue, white);
+
 }
 h1 {
   color: black;
@@ -35,6 +37,7 @@ table, th, td{
   padding-right: 0px;
   background-color: lavender;
   width: 1px;
+  background-image: linear-gradient(to right, powderblue, white);
 
 
 }
@@ -43,7 +46,6 @@ table, th, td{
   width: 80px;
   height: 40px;
   background-color: pink;
-  display: inline-block;
 }
 
 .operator {

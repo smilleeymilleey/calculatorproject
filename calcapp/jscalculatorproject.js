@@ -1,9 +1,13 @@
+var buttons = document.getElementsByClassName("button");
 
-
-var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
-var text = "";
-var i;
-for (i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', click, false);
 }
-document.getElementById("demo").innerHTML = text;
+
+function click() {
+  var firstbox = document.getElementById('firstbox');
+  var buttonclicked = document.getElementById(this.id).value;
+
+  firstbox.display.innerHTML = "Your Chosen button is: " + buttonclicked;
+  this.disabled = true;
+}
