@@ -1,26 +1,22 @@
 body {
   background-color: powderblue;
   background-image: linear-gradient(to right, powderblue, white);
-
 }
+
 h1 {
   color: black;
 }
+
 h3 {
   color: blue;
 }
-
-
-
- }
+ 
 .grid-container {
   display: grid;
   background-color: #2196F3;
   grid-gap: 0px 0px;
-
-
-
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -28,8 +24,8 @@ h3 {
   padding-right: 10px;
   font-size: 30px;
   text-align: center;
-
 }
+
 
 table, th, td{
   border: .5px solid black;
@@ -38,8 +34,6 @@ table, th, td{
   background-color: lavender;
   width: 1px;
   background-image: linear-gradient(to right, powderblue, white);
-
-
 }
 
 .clear {
@@ -64,5 +58,4 @@ table, th, td{
 
 .display {
   width: 200px;
-
 }
